@@ -18,9 +18,9 @@ There are 3 main parts to George:
 
 ## Hardware requirements
 
-A George MAKE kit can be [purchased from ETSY](https://www.etsy.com/uk/listing/239020629/george-the-talking-plant-arduino).
+A George MAKE kit can be [purchased from ETSY](http://anfo.lk/buygeorge).
 
-Alternatively you can source your own hardware from the list below (*but we can't guarantee the code will work parts you source yourself*):
+Alternatively you can source your own hardware from the list below (*but we can't guarantee the code will work with parts you source yourself*):
 
 * LM35 Temp Sensor
 * Soil Hygrometer Humidity Detection
@@ -39,9 +39,15 @@ Alternatively you can source your own hardware from the list below (*but we can'
 
 ## Installation & Usage
 
+**Wiring diragram:**  
+Wire up the hardware components as follows:
+![Wiring diagram](wiring/George_bb.jpg?raw=true)
+
+**Step by step:**  
+
 1. Fork the repo
 2. NPM install to install node dependencies
-3. Wire up george using the wiring diagram provided (you can also work out wiring by reading the sensor_read.ino)
+3. Wire up George as above (you can also work out wiring by reading the sensor_read.ino)
 4. Upload the sensor_read.ino to the Arduino Uno using the Arduino IDE
 5. Run node index.js and visit http://localhost:8000 to interact with George
 
@@ -52,10 +58,6 @@ Alternatively you can source your own hardware from the list below (*but we can'
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
-
-## History
-
-TODO: Write history
 
 ## Credits
 
