@@ -29,13 +29,21 @@ Alternatively you can source your own hardware from the list below (*but we can'
 * Light Sensor
 * Arduino Uno
 
-## Installation
+## Software requirements/dependencies
 
-TODO: Describe the installation process
+* Node
+* Serialport
+* Socket.io
+* Express
+* Crypto
 
-## Usage
+## Installation & Usage
 
-TODO: Write usage instructions
+1. Fork the repo
+2. NPM install to install node dependencies
+3. Wire up george using the wiring diagram provided (you can also work out wiring by reading the sensor_read.ino)
+4. Upload the sensor_read.ino to the Arduino Uno using the Arduino IDE
+5. Run node index.js and visit http://localhost:8000 to interact with George
 
 ## Contributing
 
